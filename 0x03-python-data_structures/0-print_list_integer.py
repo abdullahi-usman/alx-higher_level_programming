@@ -9,6 +9,6 @@ def print_list_integer(my_list=[]):
     Returns:
         None
     """
-    
+
     for num in my_list:
         print("{:d}".format(num))
