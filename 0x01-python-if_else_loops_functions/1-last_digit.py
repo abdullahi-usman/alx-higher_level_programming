@@ -3,6 +3,10 @@ import random
 number = random.randint(-10000, 10000)
 
 number = str(number)
+
+if len(number) <= 0:
+    exit(0)
+
 last_num = number[len(number) - 1]
 word = "0"
 
