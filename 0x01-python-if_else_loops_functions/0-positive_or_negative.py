@@ -7,4 +7,4 @@ word = "negative" if number < 0 else "positive"
 if number == 0:
     word = "zero"
 
-print("{} is {}".format(number, ))
+print("{} is {}".format(number, word))
