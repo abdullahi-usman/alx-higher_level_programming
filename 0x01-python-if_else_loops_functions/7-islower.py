@@ -2,4 +2,4 @@
 
 
 def islower(c):
-    ord(c) > 96 and ord(c) < 123
+    return ord(c) > 96 and ord(c) < 123
