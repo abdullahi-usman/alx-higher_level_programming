@@ -37,6 +37,4 @@ def roman_to_int(roman_string):
             res = res + 1000
             roman_string = roman_string.replace("M", "", 1)
 
-    return res;
-
-roman_to_int("")
+    return (res)
