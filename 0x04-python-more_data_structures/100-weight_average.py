@@ -10,9 +10,8 @@ def weight_average(my_list=[]):
 
     for num in list(map(lambda tp: tp[0] * tp[1], my_list)):
         numeri += num
-    
+
     for num in my_list:
         denomi += num[1]
-    
+
     return (numeri / denomi)
- 
