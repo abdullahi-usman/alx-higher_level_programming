@@ -7,3 +7,4 @@ def square_matrix_simple(matrix=[]):
         for num in arr:
             n_arr.append(num * num)
         new_matrix.append(n_arr)
+    return (new_matrix)
