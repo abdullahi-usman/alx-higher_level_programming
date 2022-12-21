@@ -1,7 +1,9 @@
 #!/usr/bin/python3
 
 class Square:
-    """ The documentation for this class
-    Maybe cannot be fitted into one line
+    """ This module demonstrates documentation as specified by the `Google Python
+    Style Guide`_. Docstrings may extend over multiple lines. Sections are created
+    with a section header and a colon followed by a block of indented text.
+    
     """
     pass
