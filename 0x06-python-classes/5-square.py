@@ -67,8 +67,14 @@ class Square:
         self.__size = value
 
     def my_print(self):
+        """     Function - Print size
+        This module demonstrates documentation as specified
+        by the `Google Python Style Guide`_. Docstrings may extend
+        over multiple lines. Sections are created with a section
+        header and a colon followed by a block of indented text.
+        """
         if self.__size <= 0:
-            print("--")
+            print("")
 
         for i in range(0, self.__size):
             print("#" * self.__size)
