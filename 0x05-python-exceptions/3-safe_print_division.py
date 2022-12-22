@@ -7,6 +7,6 @@ def safe_print_division(a, b):
     except Exception:
         pass
     finally:
-        print("Inside result: {:d}".format(res))
+        print("Inside result: {}".format(res))
 
     return res
