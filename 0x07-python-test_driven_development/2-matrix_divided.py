@@ -1,6 +1,18 @@
 #!/usr/bin/python3
+"""matrix division, this is very intersting
+first we make sure it a matrix of valid size,
+and that all items are integers or floats
+and also the divisor is a valid integer input
+so lets begin
+"""
+
 
 def matrix_divided(matrix, div):
+
+    """ This is very nice, make sure we have
+    a new matrix, that we will transfer back,
+    then check everything
+    """
     new_matrix = []
     if (type(matrix) != list or not
         all([True for line in matrix for item in line
