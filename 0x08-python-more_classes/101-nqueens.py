@@ -1,5 +1,8 @@
 #!/usr/bin/python3
-
+"""Module of the type nqueens
+Meant tp print the number of queens moves
+on a chess board
+"""
 
 import sys
 
