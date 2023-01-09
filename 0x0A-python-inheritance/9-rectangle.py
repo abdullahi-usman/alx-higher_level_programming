@@ -16,13 +16,7 @@ class Rectangle(BaseGeometry):
         '''
         init function
         '''
-        super().__init__()
-
-        super().integer_validator('width', width)
-        super().integer_validator('height', height)
-
-        self.__width = width
-        self.__height = height
+        super().__init__(width, height)
 
     def area(self):
         '''
