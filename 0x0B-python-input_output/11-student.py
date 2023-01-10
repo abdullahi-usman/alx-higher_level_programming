@@ -34,7 +34,6 @@ class Student:
         return json
 
     def reload_from_json(self, json):
-        c_items = vars(self)
         for item in json:
             match item:
                 case 'first_name':
