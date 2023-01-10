@@ -1,8 +1,8 @@
 #!/usr/bin/python3
 '''
-Has student information to print
-and store some information
-in a file
+This file has some
+function that prints pascal triangle
+and exit
 '''
 
 from math import factorial
