@@ -16,11 +16,11 @@ class Student:
         self.last_name = last_name
         self.age = age
 
-    '''
-    convert the student to json
-    and return the representation
-    '''
     def to_json(self, attrs=None):
+        '''
+        convert the student to json
+        and return the representation
+        '''
         json = vars(self)
 
         if attrs is not None:
@@ -34,6 +34,10 @@ class Student:
         return json
 
     def reload_from_json(self, json):
+        '''
+        convert the student from json
+        and return the representation
+        '''
         for item in json:
             match item:
                 case 'first_name':
