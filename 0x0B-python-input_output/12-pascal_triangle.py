@@ -26,14 +26,12 @@ def pascal_triangle(n):
     Print pascal triangle
     '''
 
+    list = []
     if n <= 0:
-        print('[]')
+        return list
+
     for i in range(n):
-        print('[', end='')
         for j in range(i+1):
-            print(factorial(i)//(factorial(j)*factorial(i-j)), end="")
+            list.append(factorial(i)//(factorial(j)*factorial(i-j)))
 
-            if j != i:
-                print(',', end='')
-
-        print(']')
+    return list
