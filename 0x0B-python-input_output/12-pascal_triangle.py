@@ -4,14 +4,19 @@ This file has some
 function that prints pascal triangle
 and exit
 '''
-
 from math import factorial
 
 
 def pascal_triangle(n):
     '''
     Print pascal triangle
+    Print pascal triangle
+    Print pascal triangle
+    Print pascal triangle
     '''
+
+    if n <= 0:
+        print('[]')
     for i in range(n):
         print('[', end='')
         for j in range(i+1):
