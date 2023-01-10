@@ -14,5 +14,4 @@ def read_file(filename=""):
     using utf-8 and make sure its close
     '''
     with open(filename, encoding="utf-8") as file:
-        for line in file:
-            print(line)
+        print(file.read())
