@@ -5,9 +5,6 @@ and output of the file
 '''
 
 
-from asyncore import read
-
-
 def read_file(filename=""):
     '''
     Read the file and print it output
