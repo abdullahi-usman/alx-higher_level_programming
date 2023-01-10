@@ -4,7 +4,13 @@ This file has some
 function that prints pascal triangle
 and exit
 '''
-from math import factorial
+
+
+def factorial(n):
+  if n == 1:
+       return n
+  else:
+       return n*factorial(n-1)
 
 
 def pascal_triangle(n):
