@@ -4,7 +4,7 @@ Square module for the square
 class and its properties
 '''
 
-from models.rectangle import Rectangle
+from .rectangle import Rectangle
 
 
 class Square(Rectangle):

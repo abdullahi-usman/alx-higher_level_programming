@@ -4,7 +4,7 @@ Rectnagle module that holds the
 rectangle class
 '''
 
-from models.base import Base
+from .base import Base
 
 class Rectangle(Base):
     '''
