@@ -10,7 +10,7 @@ class TestRectangle(unittest.TestCase):
         rect = Rectangle(10, 2, 0, 0, 12)
 
         self.assertTrue(rect.id == 12)
-    
+
     def test_area(self):
         r1 = Rectangle(3, 2)
         self.assertEqual(r1.area(), 3 * 2)

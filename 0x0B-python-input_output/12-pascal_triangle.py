@@ -12,8 +12,8 @@ def factorial(n):
     factorial
     factorial
     '''
-    if n == 1:
-        return n
+    if n <= 1:
+        return 1
     else:
         return n*factorial(n-1)
 
@@ -35,3 +35,18 @@ def pascal_triangle(n):
             list.append(factorial(i)//(factorial(j)*factorial(i-j)))
 
     return list
+
+
+
+def print_triangle(triangle):
+    """
+    Print the triangle
+    """
+    for row in triangle:
+        print("[{}]".format(",".join([str(x) for x in row])))
+
+
+if __name__ == "__main__":
+    print_triangle(pascal_triangle(5))
+
+
