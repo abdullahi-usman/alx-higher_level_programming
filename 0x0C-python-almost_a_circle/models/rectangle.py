@@ -5,10 +5,10 @@ rectangle class
 
 '''
 
-from . import base
+from .base import Base
 
 
-class Rectangle(base.Base):
+class Rectangle(Base):
     '''
     Rectangle class derived from the base class
     conbining class and methods
@@ -19,7 +19,7 @@ class Rectangle(base.Base):
         Constructor: init all properties
         and class super constructor
         '''
-        base.Base.__init__(id)
+        Base.__init__(self, id)
         self.width = width
         self.height = height
         self.x = x
