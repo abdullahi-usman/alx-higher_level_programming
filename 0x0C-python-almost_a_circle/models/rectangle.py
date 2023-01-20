@@ -2,6 +2,10 @@
 '''
 Rectnagle module that holds the
 rectangle class
+Rectnagle module that holds the
+rectangle class
+Rectnagle module that holds the
+rectangle class
 '''
 
 from . import base
@@ -9,6 +13,8 @@ from . import base
 
 class Rectangle(base.Base):
     '''
+    Rectangle class derived from the base class
+    conbining class and methods
     Rectangle class derived from the base class
     conbining class and methods
     '''
