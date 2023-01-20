@@ -2,7 +2,7 @@
 
 import unittest
 
-from models.rectangle import Rectangle
+from ..models.rectangle import Rectangle
 
 
 class TestRectangle(unittest.TestCase):
@@ -17,3 +17,6 @@ class TestRectangle(unittest.TestCase):
 
     def test_update(self):
         r1 = Rectangle(10, 10, 10, 10)
+
+if __name__ == '__main__':
+    unittest.main()

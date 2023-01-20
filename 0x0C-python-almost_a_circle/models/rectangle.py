@@ -4,7 +4,7 @@ Rectnagle module that holds the
 rectangle class
 '''
 
-from . import base
+
 
 class Rectangle(base.Base):
     '''

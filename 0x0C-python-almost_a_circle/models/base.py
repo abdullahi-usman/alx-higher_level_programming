@@ -1,7 +1,9 @@
 #!/usr/bin/python3
+
 '''
 Base module class for
 creating other modules
+
 '''
 
 import json
