@@ -6,6 +6,7 @@ rectangle class
 
 from .base import Base
 
+
 class Rectangle(Base):
     '''
     Rectangle class derived from the base class
