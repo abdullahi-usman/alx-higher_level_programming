@@ -4,7 +4,7 @@ Rectnagle module that holds the
 rectangle class
 '''
 
-from . import base
+from models import base
 
 
 class Rectangle(base.Base):
@@ -17,7 +17,7 @@ class Rectangle(base.Base):
         Constructor: init all properties
         and class super constructor
         '''
-        super().__init__(id)
+        base.Base.__init__(id)
         self.width = width
         self.height = height
         self.x = x
