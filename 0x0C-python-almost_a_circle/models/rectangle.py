@@ -4,10 +4,9 @@ Rectnagle module that holds the
 rectangle class
 '''
 
-from .base import Base
+import base
 
-
-class Rectangle(Base):
+class Rectangle(base.Base):
     '''
     Rectangle class derived from the base class
     conbining class and methods
